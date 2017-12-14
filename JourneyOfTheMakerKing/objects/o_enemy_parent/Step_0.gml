@@ -18,10 +18,10 @@ if(hp > 0) {
 
 	// Change states based on status or if no status based on childs state
 	if (confused) {
-		prev_state = state;
 		state = enemy_confused_state;
 	} else if (fear) {
-		prev_state = state;
 		state = enemy_fear_state;
+	} else {
+		state = prev_state;
 	}
 }

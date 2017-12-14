@@ -6,6 +6,10 @@ if (other.damageable && !(other.sprite_index == s_char_death_animation) && !(spr
 		sprite_index = s_char_death_animation;
 		image_speed = 1;
 		spd = 0;
+		damageable = false;
 		alarm[0] = original_bullet_cooldown*1000;
 	}
+	
+	// Create enemy "stop" state
+	spd = 0;
 }

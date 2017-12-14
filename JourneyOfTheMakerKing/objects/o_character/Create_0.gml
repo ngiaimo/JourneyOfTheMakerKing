@@ -16,6 +16,8 @@ spd = 0.8;
 original_spd = spd;
 damageable = true;
 char_direction = "down";
+original_x = x;
+original_y = y;
 
 // Shot Cooldown
 alarm[0] = -1;
