@@ -3,8 +3,10 @@ buff = argument0;
 
 switch (buff) {
 	case "coffee":
-		o_character.buffs[COFFEE] = true;
-		o_character.spd += 0.5;
+		if(!o_character.buffs[COFFEE]) {
+			o_character.buffs[COFFEE] = true;
+			o_character.spd += 0.5;
+		}
 		o_character.alarm[COFFEE+1] = room_speed*10;
 	break;
 	case "machine_gun": 

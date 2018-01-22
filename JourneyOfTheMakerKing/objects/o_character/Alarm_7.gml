@@ -1,4 +1,8 @@
 /// @description Respawn
+with (o_enemy_parent) {
+	instance_destroy();
+}
+
 sprite_index = s_character_stand;
 x = original_x;
 y = original_y;

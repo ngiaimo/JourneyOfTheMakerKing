@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "8026edde-001d-43f0-9084-f515c8e877af",
+            "Value": {
+                "id": "28cea79b-32ba-4af1-aa9e-f4ad0976fa5d",
+                "resourcePath": "objects\\o_coffee\\o_coffee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "80b669bc-6bc4-49dd-891e-f46a34496c31",
             "Value": {
                 "id": "719c1e30-d03a-4e5e-84ba-877f84682ae5",
@@ -516,14 +524,6 @@
                 "id": "daf8dffb-c7bb-4b49-80eb-db9e87140351",
                 "resourcePath": "scripts\\smoke_bomb\\smoke_bomb.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9037b436-6810-4d62-bd60-f890b53c1e19",
-            "Value": {
-                "id": "439e2c98-5a16-4096-8b26-80c714675a03",
-                "resourcePath": "objects\\o_coffee\\o_coffee.yy",
-                "resourceType": "GMObject"
             }
         },
         {

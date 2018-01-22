@@ -16,3 +16,5 @@ if (sprite_index == s_use_tombstone) {
 		}
 	}
 }
+
+draw_text(x, y+5, string(spd));

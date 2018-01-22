@@ -12,6 +12,11 @@ if (hp > 0) {
 		dead = true;
 		alarm[0] = room_speed*10;
 		depth = 5;
+		if (loot) {
+			if (spawn_loot(0.20)) {
+				instance_destroy();
+			}
+		}
 	}
 
 	//TODO: do not destroy bullet if there is left over damage

@@ -2,6 +2,7 @@
 event_inherited();
 hp = 1;
 spd = 0.6;
+original_spd = spd;
 sprite_index = s_orc;
 image_speed = 1.2;
 target_x = o_character.x;

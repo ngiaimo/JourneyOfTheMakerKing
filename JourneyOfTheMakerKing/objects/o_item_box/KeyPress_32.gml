@@ -3,6 +3,9 @@ is_full = false;
 
 if (stored_item != noone) {
 	switch (sprite_get_name(stored_item)) {
+		case "s_coffee":
+			apply_buff("coffee");
+		break;
 		case "s_shotgun":
 			apply_buff("shotgun");
 		break;
